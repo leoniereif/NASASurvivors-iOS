@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  WaterApp
 //
-//  Created by Leonie Reif on 01/03/17.
+//  Created by Leonie Reif on 01/04/17.
 //  Copyright © 2017 Leonie Reif. All rights reserved.
 //
 
@@ -20,10 +20,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-        self.performSegue(withIdentifier: "loginView", sender: self);
-    }
-    
 
 }
 

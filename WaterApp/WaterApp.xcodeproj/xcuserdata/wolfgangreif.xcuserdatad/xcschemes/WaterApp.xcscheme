@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59EEA1E01E6779D40002B9CE"
+               BlueprintIdentifier = "59E597CA1E90260F005174E2"
                BuildableName = "WaterApp.app"
                BlueprintName = "WaterApp"
                ReferencedContainer = "container:WaterApp.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59EEA1E01E6779D40002B9CE"
+            BlueprintIdentifier = "59E597CA1E90260F005174E2"
             BuildableName = "WaterApp.app"
             BlueprintName = "WaterApp"
             ReferencedContainer = "container:WaterApp.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59EEA1E01E6779D40002B9CE"
+            BlueprintIdentifier = "59E597CA1E90260F005174E2"
             BuildableName = "WaterApp.app"
             BlueprintName = "WaterApp"
             ReferencedContainer = "container:WaterApp.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59EEA1E01E6779D40002B9CE"
+            BlueprintIdentifier = "59E597CA1E90260F005174E2"
             BuildableName = "WaterApp.app"
             BlueprintName = "WaterApp"
             ReferencedContainer = "container:WaterApp.xcodeproj">
