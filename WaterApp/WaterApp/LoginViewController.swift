@@ -33,8 +33,8 @@ class LoginViewController: UIViewController {
                     print("You have successfully logged in")
                     
                     //Go to the HomeViewController if the login is sucessful
-                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
-                    self.present(vc!, animated: true, completion: nil)
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "Dashboard")
+                    self.present(vc!, animated: false, completion: nil)
                     
                 } else {
                     
@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
                     let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                     alertController.addAction(defaultAction)
                     
-                    self.present(alertController, animated: true, completion: nil)
+                    self.present(alertController, animated: false, completion: nil)
                 }
             }
         }

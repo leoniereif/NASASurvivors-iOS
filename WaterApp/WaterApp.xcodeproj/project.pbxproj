@@ -11,12 +11,12 @@
 		59E597D61E90260F005174E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E597D51E90260F005174E2 /* Assets.xcassets */; };
 		59E597D91E90260F005174E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E597D71E90260F005174E2 /* LaunchScreen.storyboard */; };
 		59E597E11E90265B005174E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597E01E90265B005174E2 /* AppDelegate.swift */; };
-		59E597E31E90276B005174E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E597E21E90276B005174E2 /* Main.storyboard */; };
-		59E597E81E902778005174E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597E41E902778005174E2 /* HomeViewController.swift */; };
-		59E597E91E902778005174E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597E51E902778005174E2 /* LoginViewController.swift */; };
-		59E597EA1E902778005174E2 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597E61E902778005174E2 /* ResetPasswordViewController.swift */; };
-		59E597EB1E902778005174E2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597E71E902778005174E2 /* SignUpViewController.swift */; };
 		59E597ED1E9027D4005174E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */; };
+		59E597EF1E902B21005174E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E597EE1E902B21005174E2 /* Main.storyboard */; };
+		59E597F41E902B36005174E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F01E902B36005174E2 /* HomeViewController.swift */; };
+		59E597F51E902B36005174E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F11E902B36005174E2 /* LoginViewController.swift */; };
+		59E597F61E902B36005174E2 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F21E902B36005174E2 /* ResetPasswordViewController.swift */; };
+		59E597F71E902B36005174E2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F31E902B36005174E2 /* SignUpViewController.swift */; };
 		ABFDB6655C054BB49426E9E9 /* Pods_WaterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BF65EB2DF649245D066948 /* Pods_WaterApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,12 +29,12 @@
 		59E597D81E90260F005174E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59E597DA1E90260F005174E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59E597E01E90265B005174E2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59E597E21E90276B005174E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../Desktop/WaterApp/WaterApp/Main.storyboard; sourceTree = "<group>"; };
-		59E597E41E902778005174E2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../../../Desktop/WaterApp/WaterApp/HomeViewController.swift; sourceTree = "<group>"; };
-		59E597E51E902778005174E2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../Desktop/WaterApp/WaterApp/LoginViewController.swift; sourceTree = "<group>"; };
-		59E597E61E902778005174E2 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPasswordViewController.swift; path = ../../../../Desktop/WaterApp/WaterApp/ResetPasswordViewController.swift; sourceTree = "<group>"; };
-		59E597E71E902778005174E2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../../Desktop/WaterApp/WaterApp/SignUpViewController.swift; sourceTree = "<group>"; };
 		59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59E597EE1E902B21005174E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		59E597F01E902B36005174E2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		59E597F11E902B36005174E2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		59E597F21E902B36005174E2 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		59E597F31E902B36005174E2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		71BF65EB2DF649245D066948 /* Pods_WaterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,14 +73,14 @@
 			children = (
 				59E597E01E90265B005174E2 /* AppDelegate.swift */,
 				59E597D01E90260F005174E2 /* ViewController.swift */,
-				59E597E21E90276B005174E2 /* Main.storyboard */,
+				59E597EE1E902B21005174E2 /* Main.storyboard */,
 				59E597D51E90260F005174E2 /* Assets.xcassets */,
 				59E597D71E90260F005174E2 /* LaunchScreen.storyboard */,
 				59E597DA1E90260F005174E2 /* Info.plist */,
-				59E597E41E902778005174E2 /* HomeViewController.swift */,
-				59E597E51E902778005174E2 /* LoginViewController.swift */,
-				59E597E61E902778005174E2 /* ResetPasswordViewController.swift */,
-				59E597E71E902778005174E2 /* SignUpViewController.swift */,
+				59E597F01E902B36005174E2 /* HomeViewController.swift */,
+				59E597F11E902B36005174E2 /* LoginViewController.swift */,
+				59E597F21E902B36005174E2 /* ResetPasswordViewController.swift */,
+				59E597F31E902B36005174E2 /* SignUpViewController.swift */,
 				59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */,
 			);
 			path = WaterApp;
@@ -165,7 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59E597E31E90276B005174E2 /* Main.storyboard in Resources */,
+				59E597EF1E902B21005174E2 /* Main.storyboard in Resources */,
 				59E597ED1E9027D4005174E2 /* GoogleService-Info.plist in Resources */,
 				59E597D91E90260F005174E2 /* LaunchScreen.storyboard in Resources */,
 				59E597D61E90260F005174E2 /* Assets.xcassets in Resources */,
@@ -227,12 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59E597EB1E902778005174E2 /* SignUpViewController.swift in Sources */,
-				59E597E91E902778005174E2 /* LoginViewController.swift in Sources */,
+				59E597F61E902B36005174E2 /* ResetPasswordViewController.swift in Sources */,
 				59E597E11E90265B005174E2 /* AppDelegate.swift in Sources */,
-				59E597EA1E902778005174E2 /* ResetPasswordViewController.swift in Sources */,
+				59E597F71E902B36005174E2 /* SignUpViewController.swift in Sources */,
+				59E597F51E902B36005174E2 /* LoginViewController.swift in Sources */,
 				59E597D11E90260F005174E2 /* ViewController.swift in Sources */,
-				59E597E81E902778005174E2 /* HomeViewController.swift in Sources */,
+				59E597F41E902B36005174E2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
