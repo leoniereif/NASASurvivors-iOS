@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewReportsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewPurityReportsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
-    var items: [String] = ["We", "Heart", "Swift"]
+    var items: [String] = ["Purity 1", "Purity 2", "Purity 3"]
     
     @available(iOS 2.0, *)
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

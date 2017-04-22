@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pHr-FP-01c">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hxY-Ju-URQ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -526,10 +526,10 @@
             </objects>
             <point key="canvasLocation" x="2050" y="1310"/>
         </scene>
-        <!--Add Report View Controller-->
+        <!--Add Source Report View Controller-->
         <scene sceneID="Z8u-dw-2hR">
             <objects>
-                <viewController id="iQj-vH-mWn" customClass="AddReportViewController" customModule="WaterApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iQj-vH-mWn" customClass="AddSourceReportViewController" customModule="WaterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bSW-7o-1LZ"/>
                         <viewControllerLayoutGuide type="bottom" id="dkU-48-sYf"/>
@@ -595,7 +595,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4m6-3I-rTJ"/>
                                 </constraints>
-                                <state key="normal" title="Register &amp; Sign In">
+                                <state key="normal" title="Submit">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -640,10 +640,10 @@
             </objects>
             <point key="canvasLocation" x="3239" y="1336"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Purity Report View Controller-->
         <scene sceneID="pYm-Fh-ZCD">
             <objects>
-                <viewController id="xE2-96-Hqv" sceneMemberID="viewController">
+                <viewController id="xE2-96-Hqv" customClass="AddPurityReportViewController" customModule="WaterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hlW-rv-XKM"/>
                         <viewControllerLayoutGuide type="bottom" id="EON-Lw-PIU"/>
@@ -674,7 +674,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olM-6A-Tgs">
                                 <rect key="frame" x="123" y="125" width="128" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Z3T-tR-CEZ"/>
+                                    <constraint firstAttribute="height" constant="21" id="11w-91-amf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -684,7 +684,7 @@
                                 <rect key="frame" x="57" y="154" width="114" height="30"/>
                                 <color key="tintColor" red="0.3803921569" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="114" id="WQg-wZ-fcP"/>
+                                    <constraint firstAttribute="width" constant="114" id="aI2-hv-gKV"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -697,22 +697,39 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEx-gx-cwf">
-                                <rect key="frame" x="77" y="267" width="220" height="76"/>
-                            </pickerView>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oos-uT-hSw">
-                                <rect key="frame" x="77" y="373" width="220" height="71"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Virus PPM" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oua-8n-KVO">
+                                <rect key="frame" x="112" y="233" width="150" height="30"/>
+                                <color key="tintColor" red="0.3803921569" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="71" id="8Ib-9f-INt"/>
+                                    <constraint firstAttribute="height" constant="30" id="GFr-3V-zZp"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contaminant PPM" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvz-NI-yQa">
+                                <rect key="frame" x="112" y="296" width="150" height="30"/>
+                                <color key="tintColor" red="0.3803921569" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uL4-yv-nnL"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oos-uT-hSw">
+                                <rect key="frame" x="27" y="370" width="320" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="QFO-vI-SZj"/>
                                 </constraints>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDK-Aq-NpV">
-                                <rect key="frame" x="87" y="515" width="200" height="30"/>
+                                <rect key="frame" x="106" y="520" width="163" height="30"/>
                                 <color key="backgroundColor" red="0.0078431372550000003" green="0.16862745100000001" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="RrU-hK-fM3"/>
+                                    <constraint firstAttribute="height" constant="30" id="xqh-Rw-E14"/>
                                 </constraints>
-                                <state key="normal" title="Register &amp; Sign In">
+                                <state key="normal" title="Submit">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -722,38 +739,42 @@
                         </subviews>
                         <color key="backgroundColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Oos-uT-hSw" firstAttribute="centerX" secondItem="oDK-Aq-NpV" secondAttribute="centerX" id="0G6-R5-ivQ"/>
+                            <constraint firstItem="zgW-WY-s9A" firstAttribute="bottom" secondItem="0RK-63-ujA" secondAttribute="bottom" id="1pZ-00-dnx"/>
                             <constraint firstItem="z8K-yN-fuu" firstAttribute="leading" secondItem="eje-QY-EbD" secondAttribute="leading" id="229-cg-k8h"/>
-                            <constraint firstItem="oDK-Aq-NpV" firstAttribute="top" secondItem="Oos-uT-hSw" secondAttribute="bottom" constant="71" id="2aR-UL-E0k"/>
-                            <constraint firstItem="zgW-WY-s9A" firstAttribute="leading" secondItem="eje-QY-EbD" secondAttribute="leadingMargin" constant="41" id="LBu-rc-gqU"/>
-                            <constraint firstItem="hEx-gx-cwf" firstAttribute="leading" secondItem="eje-QY-EbD" secondAttribute="leadingMargin" constant="61" id="Lh8-eb-eal"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0RK-63-ujA" secondAttribute="trailing" constant="41" id="Lpz-GI-P7c"/>
+                            <constraint firstItem="oua-8n-KVO" firstAttribute="leading" secondItem="yvz-NI-yQa" secondAttribute="leading" id="5hO-zr-pxm"/>
+                            <constraint firstItem="oua-8n-KVO" firstAttribute="top" secondItem="zgW-WY-s9A" secondAttribute="bottom" constant="49" id="CM7-ii-3QN"/>
+                            <constraint firstItem="oua-8n-KVO" firstAttribute="trailing" secondItem="yvz-NI-yQa" secondAttribute="trailing" id="Eye-oO-aZZ"/>
+                            <constraint firstItem="zgW-WY-s9A" firstAttribute="baseline" secondItem="0RK-63-ujA" secondAttribute="baseline" id="KlS-Sf-Bt4"/>
+                            <constraint firstItem="olM-6A-Tgs" firstAttribute="top" secondItem="z8K-yN-fuu" secondAttribute="bottom" constant="53" id="LXC-UZ-toc"/>
                             <constraint firstAttribute="trailing" secondItem="z8K-yN-fuu" secondAttribute="trailing" id="MNj-kR-Yuc"/>
-                            <constraint firstItem="EON-Lw-PIU" firstAttribute="top" secondItem="oDK-Aq-NpV" secondAttribute="bottom" constant="122" id="Sgd-mw-kwn"/>
-                            <constraint firstItem="z8K-yN-fuu" firstAttribute="centerX" secondItem="olM-6A-Tgs" secondAttribute="centerX" id="Tgd-Eg-77c"/>
-                            <constraint firstItem="hEx-gx-cwf" firstAttribute="leading" secondItem="Oos-uT-hSw" secondAttribute="leading" id="XVz-Gv-4Q5"/>
-                            <constraint firstItem="oDK-Aq-NpV" firstAttribute="leading" secondItem="eje-QY-EbD" secondAttribute="leadingMargin" constant="71" id="ZEX-RH-avo"/>
-                            <constraint firstItem="0RK-63-ujA" firstAttribute="leading" secondItem="zgW-WY-s9A" secondAttribute="trailing" constant="33" id="dn1-zt-Rlv"/>
-                            <constraint firstItem="hEx-gx-cwf" firstAttribute="trailing" secondItem="Oos-uT-hSw" secondAttribute="trailing" id="eMY-Zx-C5K"/>
-                            <constraint firstItem="zgW-WY-s9A" firstAttribute="top" secondItem="olM-6A-Tgs" secondAttribute="bottom" constant="8" symbolic="YES" id="eQv-cy-qoO"/>
-                            <constraint firstItem="zgW-WY-s9A" firstAttribute="bottom" secondItem="0RK-63-ujA" secondAttribute="bottom" id="fcI-Bg-zfO"/>
-                            <constraint firstItem="olM-6A-Tgs" firstAttribute="centerX" secondItem="hEx-gx-cwf" secondAttribute="centerX" id="htc-gF-jF3"/>
-                            <constraint firstItem="olM-6A-Tgs" firstAttribute="top" secondItem="z8K-yN-fuu" secondAttribute="bottom" constant="53" id="lPb-Xm-XcP"/>
-                            <constraint firstItem="zgW-WY-s9A" firstAttribute="baseline" secondItem="0RK-63-ujA" secondAttribute="baseline" id="tBx-u4-1Bp"/>
-                            <constraint firstItem="hEx-gx-cwf" firstAttribute="top" secondItem="zgW-WY-s9A" secondAttribute="bottom" constant="83" id="uCP-Uf-neM"/>
-                            <constraint firstItem="Oos-uT-hSw" firstAttribute="centerX" secondItem="oDK-Aq-NpV" secondAttribute="centerX" id="v0F-F4-s52"/>
-                            <constraint firstItem="Oos-uT-hSw" firstAttribute="top" secondItem="hEx-gx-cwf" secondAttribute="bottom" constant="30" id="xI5-Hg-E4R"/>
+                            <constraint firstItem="Oos-uT-hSw" firstAttribute="top" secondItem="yvz-NI-yQa" secondAttribute="bottom" constant="44" id="Pdp-wA-Ef5"/>
+                            <constraint firstItem="zgW-WY-s9A" firstAttribute="top" secondItem="olM-6A-Tgs" secondAttribute="bottom" constant="8" symbolic="YES" id="Q3a-V2-6qW"/>
+                            <constraint firstItem="yvz-NI-yQa" firstAttribute="top" secondItem="oua-8n-KVO" secondAttribute="bottom" constant="33" id="cc0-Bc-FMs"/>
+                            <constraint firstItem="zgW-WY-s9A" firstAttribute="leading" secondItem="eje-QY-EbD" secondAttribute="leadingMargin" constant="41" id="fHA-Ic-W4w"/>
+                            <constraint firstItem="EON-Lw-PIU" firstAttribute="top" secondItem="oDK-Aq-NpV" secondAttribute="bottom" constant="117" id="mVj-GE-TCi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0RK-63-ujA" secondAttribute="trailing" constant="41" id="njv-gw-dHB"/>
+                            <constraint firstItem="oDK-Aq-NpV" firstAttribute="leading" secondItem="eje-QY-EbD" secondAttribute="leadingMargin" constant="90" id="q6d-wP-EYk"/>
+                            <constraint firstItem="oua-8n-KVO" firstAttribute="leading" secondItem="eje-QY-EbD" secondAttribute="leadingMargin" constant="96" id="qMH-Ad-QNv"/>
+                            <constraint firstItem="0RK-63-ujA" firstAttribute="leading" secondItem="zgW-WY-s9A" secondAttribute="trailing" constant="33" id="v5C-5B-oyD"/>
+                            <constraint firstItem="olM-6A-Tgs" firstAttribute="centerX" secondItem="z8K-yN-fuu" secondAttribute="centerX" id="wPg-aS-dtl"/>
+                            <constraint firstItem="olM-6A-Tgs" firstAttribute="centerX" secondItem="oua-8n-KVO" secondAttribute="centerX" id="waY-oe-jpb"/>
+                            <constraint firstItem="Oos-uT-hSw" firstAttribute="centerX" secondItem="yvz-NI-yQa" secondAttribute="centerX" id="x3u-Pr-NMh"/>
                             <constraint firstItem="z8K-yN-fuu" firstAttribute="top" secondItem="hlW-rv-XKM" secondAttribute="bottom" constant="8" id="zU4-PK-CGP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="safetyPicker" destination="Oos-uT-hSw" id="SXa-Sv-gKD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cD-7D-7Oi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4097" y="1462"/>
+            <point key="canvasLocation" x="4096.8000000000002" y="1460.4197901049477"/>
         </scene>
-        <!--View Reports View Controller-->
+        <!--View Purity Reports View Controller-->
         <scene sceneID="fix-fp-ubm">
             <objects>
-                <viewController id="421-Ab-F0B" customClass="ViewReportsViewController" customModule="WaterApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="421-Ab-F0B" customClass="ViewPurityReportsViewController" customModule="WaterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3hI-n9-pm9"/>
                         <viewControllerLayoutGuide type="bottom" id="ert-LE-24x"/>
@@ -804,10 +825,10 @@
             </objects>
             <point key="canvasLocation" x="5070" y="1309"/>
         </scene>
-        <!--View Controller-->
+        <!--View Source Reports View Controller-->
         <scene sceneID="56H-Rv-Udk">
             <objects>
-                <viewController id="ycn-Rm-MHD" sceneMemberID="viewController">
+                <viewController id="ycn-Rm-MHD" customClass="ViewSourceReportsViewController" customModule="WaterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nu9-5K-phB"/>
                         <viewControllerLayoutGuide type="bottom" id="1cc-q8-xtq"/>
@@ -850,6 +871,9 @@
                             <constraint firstAttribute="trailing" secondItem="eNz-p6-mup" secondAttribute="trailing" id="sf2-Pq-eZu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Mtq-zl-tBa" id="nI2-0r-ka3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eOJ-PQ-1Qz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -911,9 +935,9 @@
         <image name="nasa_logo-gray" width="908" height="908"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lx1-SX-AlL"/>
         <segue reference="jCO-ed-QLw"/>
         <segue reference="d7R-4T-WIa"/>
-        <segue reference="NWg-AK-q6Y"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

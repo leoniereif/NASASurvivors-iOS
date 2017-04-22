@@ -2,7 +2,7 @@
 import UIKit
 
 
-class AddReportViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
+class AddSourceReportViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
 
     @IBOutlet weak var waterPickerView: UIPickerView!
     
