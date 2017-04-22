@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		599571EA1EAABC850016431D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599571E91EAABC850016431D /* MapKit.framework */; };
+		599571EF1EAABFA90016431D /* AddReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599571EB1EAABFA90016431D /* AddReportViewController.swift */; };
+		599571F01EAABFA90016431D /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599571EC1EAABFA90016431D /* GraphViewController.swift */; };
+		599571F11EAABFA90016431D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599571ED1EAABFA90016431D /* MapViewController.swift */; };
+		599571F41EAAC36F0016431D /* WaterPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599571F31EAAC36F0016431D /* WaterPin.swift */; };
+		599571FA1EAACC4D0016431D /* ViewReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599571F91EAACC4D0016431D /* ViewReportsViewController.swift */; };
+		599572001EAADC770016431D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599571FD1EAADC770016431D /* LoginViewController.swift */; };
+		599572011EAADC770016431D /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599571FE1EAADC770016431D /* ResetPasswordViewController.swift */; };
+		599572021EAADC770016431D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599571FF1EAADC770016431D /* SignUpViewController.swift */; };
 		59E597D11E90260F005174E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597D01E90260F005174E2 /* ViewController.swift */; };
 		59E597D61E90260F005174E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E597D51E90260F005174E2 /* Assets.xcassets */; };
 		59E597D91E90260F005174E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E597D71E90260F005174E2 /* LaunchScreen.storyboard */; };
@@ -14,15 +23,21 @@
 		59E597ED1E9027D4005174E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */; };
 		59E597EF1E902B21005174E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E597EE1E902B21005174E2 /* Main.storyboard */; };
 		59E597F41E902B36005174E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F01E902B36005174E2 /* HomeViewController.swift */; };
-		59E597F51E902B36005174E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F11E902B36005174E2 /* LoginViewController.swift */; };
-		59E597F61E902B36005174E2 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F21E902B36005174E2 /* ResetPasswordViewController.swift */; };
-		59E597F71E902B36005174E2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F31E902B36005174E2 /* SignUpViewController.swift */; };
 		ABFDB6655C054BB49426E9E9 /* Pods_WaterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BF65EB2DF649245D066948 /* Pods_WaterApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17CB1AF5BAAC9354B12129F1 /* Pods-WaterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterApp/Pods-WaterApp.release.xcconfig"; sourceTree = "<group>"; };
 		3176458305A7932F0D0A6873 /* Pods-WaterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterApp/Pods-WaterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		599571E91EAABC850016431D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		599571EB1EAABFA90016431D /* AddReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReportViewController.swift; sourceTree = "<group>"; };
+		599571EC1EAABFA90016431D /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		599571ED1EAABFA90016431D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		599571F31EAAC36F0016431D /* WaterPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterPin.swift; sourceTree = "<group>"; };
+		599571F91EAACC4D0016431D /* ViewReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewReportsViewController.swift; sourceTree = "<group>"; };
+		599571FD1EAADC770016431D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		599571FE1EAADC770016431D /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		599571FF1EAADC770016431D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		59E597CB1E90260F005174E2 /* WaterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E597D01E90260F005174E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59E597D51E90260F005174E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,9 +47,6 @@
 		59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		59E597EE1E902B21005174E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		59E597F01E902B36005174E2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		59E597F11E902B36005174E2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		59E597F21E902B36005174E2 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
-		59E597F31E902B36005174E2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		71BF65EB2DF649245D066948 /* Pods_WaterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				599571EA1EAABC850016431D /* MapKit.framework in Frameworks */,
 				ABFDB6655C054BB49426E9E9 /* Pods_WaterApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +63,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		599572041EAADCE30016431D /* Login/Registration */ = {
+			isa = PBXGroup;
+			children = (
+				599571FD1EAADC770016431D /* LoginViewController.swift */,
+				599571FE1EAADC770016431D /* ResetPasswordViewController.swift */,
+				599571FF1EAADC770016431D /* SignUpViewController.swift */,
+			);
+			name = Login/Registration;
+			sourceTree = "<group>";
+		};
+		599572051EAADD1E0016431D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				599571ED1EAABFA90016431D /* MapViewController.swift */,
+				599571F31EAAC36F0016431D /* WaterPin.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 		59E597C21E90260F005174E2 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +110,12 @@
 				59E597D71E90260F005174E2 /* LaunchScreen.storyboard */,
 				59E597DA1E90260F005174E2 /* Info.plist */,
 				59E597F01E902B36005174E2 /* HomeViewController.swift */,
-				59E597F11E902B36005174E2 /* LoginViewController.swift */,
-				59E597F21E902B36005174E2 /* ResetPasswordViewController.swift */,
-				59E597F31E902B36005174E2 /* SignUpViewController.swift */,
+				599572041EAADCE30016431D /* Login/Registration */,
+				599571EB1EAABFA90016431D /* AddReportViewController.swift */,
+				599571EC1EAABFA90016431D /* GraphViewController.swift */,
+				599572051EAADD1E0016431D /* Map */,
 				59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */,
+				599571F91EAACC4D0016431D /* ViewReportsViewController.swift */,
 			);
 			path = WaterApp;
 			sourceTree = "<group>";
@@ -98,6 +132,7 @@
 		EFFF5523C56D120E07B5CEC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				599571E91EAABC850016431D /* MapKit.framework */,
 				71BF65EB2DF649245D066948 /* Pods_WaterApp.framework */,
 			);
 			name = Frameworks;
@@ -227,12 +262,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59E597F61E902B36005174E2 /* ResetPasswordViewController.swift in Sources */,
+				599572021EAADC770016431D /* SignUpViewController.swift in Sources */,
+				599572001EAADC770016431D /* LoginViewController.swift in Sources */,
 				59E597E11E90265B005174E2 /* AppDelegate.swift in Sources */,
-				59E597F71E902B36005174E2 /* SignUpViewController.swift in Sources */,
-				59E597F51E902B36005174E2 /* LoginViewController.swift in Sources */,
+				599571FA1EAACC4D0016431D /* ViewReportsViewController.swift in Sources */,
+				599571F11EAABFA90016431D /* MapViewController.swift in Sources */,
 				59E597D11E90260F005174E2 /* ViewController.swift in Sources */,
+				599571F01EAABFA90016431D /* GraphViewController.swift in Sources */,
 				59E597F41E902B36005174E2 /* HomeViewController.swift in Sources */,
+				599572011EAADC770016431D /* ResetPasswordViewController.swift in Sources */,
+				599571EF1EAABFA90016431D /* AddReportViewController.swift in Sources */,
+				599571F41EAAC36F0016431D /* WaterPin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

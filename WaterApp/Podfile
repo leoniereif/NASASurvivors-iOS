@@ -8,5 +8,6 @@ target 'WaterApp' do
   # Pods for WaterApp
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'GoogleMaps', '= 2.1.0'
 
 end
