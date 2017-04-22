@@ -25,6 +25,15 @@
 		59E597ED1E9027D4005174E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */; };
 		59E597EF1E902B21005174E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E597EE1E902B21005174E2 /* Main.storyboard */; };
 		59E597F41E902B36005174E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E597F01E902B36005174E2 /* HomeViewController.swift */; };
+		59E9FCF31EABDFB8004B176B /* WaterSourceReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FCF21EABDFB8004B176B /* WaterSourceReport.swift */; };
+		59E9FCF61EABE4B1004B176B /* LatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FCF51EABE4B1004B176B /* LatLng.swift */; };
+		59E9FCF81EABE53A004B176B /* WaterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FCF71EABE53A004B176B /* WaterType.swift */; };
+		59E9FCFA1EABE546004B176B /* WaterCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FCF91EABE546004B176B /* WaterCondition.swift */; };
+		59E9FCFC1EABE87A004B176B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FCFB1EABE87A004B176B /* User.swift */; };
+		59E9FCFE1EABE911004B176B /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FCFD1EABE911004B176B /* UserType.swift */; };
+		59E9FD001EABE963004B176B /* WaterPurityReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FCFF1EABE963004B176B /* WaterPurityReport.swift */; };
+		59E9FD021EABEA37004B176B /* SafetyCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FD011EABEA37004B176B /* SafetyCondition.swift */; };
+		59E9FD041EABEB12004B176B /* AppSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9FD031EABEB12004B176B /* AppSingleton.swift */; };
 		ABFDB6655C054BB49426E9E9 /* Pods_WaterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BF65EB2DF649245D066948 /* Pods_WaterApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +60,15 @@
 		59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		59E597EE1E902B21005174E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		59E597F01E902B36005174E2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		59E9FCF21EABDFB8004B176B /* WaterSourceReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterSourceReport.swift; sourceTree = "<group>"; };
+		59E9FCF51EABE4B1004B176B /* LatLng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatLng.swift; sourceTree = "<group>"; };
+		59E9FCF71EABE53A004B176B /* WaterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterType.swift; sourceTree = "<group>"; };
+		59E9FCF91EABE546004B176B /* WaterCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterCondition.swift; sourceTree = "<group>"; };
+		59E9FCFB1EABE87A004B176B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		59E9FCFD1EABE911004B176B /* UserType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		59E9FCFF1EABE963004B176B /* WaterPurityReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterPurityReport.swift; sourceTree = "<group>"; };
+		59E9FD011EABEA37004B176B /* SafetyCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafetyCondition.swift; sourceTree = "<group>"; };
+		59E9FD031EABEB12004B176B /* AppSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSingleton.swift; sourceTree = "<group>"; };
 		71BF65EB2DF649245D066948 /* Pods_WaterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,8 +140,25 @@
 				59E597EC1E9027D4005174E2 /* GoogleService-Info.plist */,
 				599571F91EAACC4D0016431D /* ViewSourceReportsViewController.swift */,
 				599572081EAADEE40016431D /* ViewPurityReportsViewController.swift */,
+				59E9FCF41EABE47D004B176B /* Models */,
 			);
 			path = WaterApp;
+			sourceTree = "<group>";
+		};
+		59E9FCF41EABE47D004B176B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59E9FD031EABEB12004B176B /* AppSingleton.swift */,
+				59E9FCF21EABDFB8004B176B /* WaterSourceReport.swift */,
+				59E9FCF51EABE4B1004B176B /* LatLng.swift */,
+				59E9FCF71EABE53A004B176B /* WaterType.swift */,
+				59E9FCF91EABE546004B176B /* WaterCondition.swift */,
+				59E9FCFB1EABE87A004B176B /* User.swift */,
+				59E9FCFD1EABE911004B176B /* UserType.swift */,
+				59E9FCFF1EABE963004B176B /* WaterPurityReport.swift */,
+				59E9FD011EABEA37004B176B /* SafetyCondition.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		7DDDB539789097564EC9A5AB /* Pods */ = {
@@ -269,18 +304,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				599572071EAADDB90016431D /* AddSourceReportViewController.swift in Sources */,
+				59E9FD041EABEB12004B176B /* AppSingleton.swift in Sources */,
 				599572021EAADC770016431D /* SignUpViewController.swift in Sources */,
 				599572001EAADC770016431D /* LoginViewController.swift in Sources */,
 				59E597E11E90265B005174E2 /* AppDelegate.swift in Sources */,
 				599571FA1EAACC4D0016431D /* ViewSourceReportsViewController.swift in Sources */,
+				59E9FCF61EABE4B1004B176B /* LatLng.swift in Sources */,
+				59E9FD001EABE963004B176B /* WaterPurityReport.swift in Sources */,
 				599571F11EAABFA90016431D /* MapViewController.swift in Sources */,
+				59E9FCF31EABDFB8004B176B /* WaterSourceReport.swift in Sources */,
 				599572091EAADEE40016431D /* ViewPurityReportsViewController.swift in Sources */,
 				59E597D11E90260F005174E2 /* ViewController.swift in Sources */,
 				599571F01EAABFA90016431D /* GraphViewController.swift in Sources */,
+				59E9FCFA1EABE546004B176B /* WaterCondition.swift in Sources */,
 				59E597F41E902B36005174E2 /* HomeViewController.swift in Sources */,
 				599572011EAADC770016431D /* ResetPasswordViewController.swift in Sources */,
+				59E9FCFE1EABE911004B176B /* UserType.swift in Sources */,
+				59E9FCFC1EABE87A004B176B /* User.swift in Sources */,
 				599571EF1EAABFA90016431D /* AddPurityReportViewController.swift in Sources */,
 				599571F41EAAC36F0016431D /* WaterPin.swift in Sources */,
+				59E9FCF81EABE53A004B176B /* WaterType.swift in Sources */,
+				59E9FD021EABEA37004B176B /* SafetyCondition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

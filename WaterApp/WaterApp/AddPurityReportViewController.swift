@@ -1,5 +1,7 @@
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 
 class AddPurityReportViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
@@ -7,6 +9,8 @@ class AddPurityReportViewController: UIViewController, UIPickerViewDelegate, UIP
     @IBOutlet weak var safetyPicker: UIPickerView!
     
     var safety = ["Safe", "Treatable", "Unsafe"]
+    
+    var database = FIRDatabase.database().reference()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +20,9 @@ class AddPurityReportViewController: UIViewController, UIPickerViewDelegate, UIP
         safetyPicker.delegate = self
         safetyPicker.layer.borderColor = UIColor.white.cgColor
         safetyPicker.layer.borderWidth = 2
+        
+
+        database.child("users").child("0").setValue(["username": "TestUser"])
         
     }
 
